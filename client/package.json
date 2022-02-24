@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "bl": "^5.0.0",
+    "bootstrap": "^5.0.2",
+    "ipfs-api": "^26.1.2",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-meta-tags": "^1.0.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^4.0.3",
+    "react-table": "^7.7.0",
+    "web3": "1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5"
+  }
+}
